@@ -8,19 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/erhodess3/.nuget/packages/": {}
+    "/home/nunumarie3000/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/erhodess3/401/Lab04_TicTacToe/starter-code/Lab04_TicTacToe/Lab04_TicTacToe.csproj",
+      "projectUniqueName": "/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/Lab04_TicTacToe.csproj",
       "projectName": "Lab04_TicTacToe",
-      "projectPath": "/Users/erhodess3/401/Lab04_TicTacToe/starter-code/Lab04_TicTacToe/Lab04_TicTacToe.csproj",
-      "packagesPath": "/Users/erhodess3/.nuget/packages/",
-      "outputPath": "/Users/erhodess3/401/Lab04_TicTacToe/starter-code/Lab04_TicTacToe/obj/",
+      "projectPath": "/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/Lab04_TicTacToe.csproj",
+      "packagesPath": "/home/nunumarie3000/.nuget/packages/",
+      "outputPath": "/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/erhodess3/.nuget/NuGet/NuGet.Config"
+        "/home/nunumarie3000/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

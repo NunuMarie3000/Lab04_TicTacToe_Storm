@@ -1,0 +1,15 @@
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.csproj.AssemblyReference.cache
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.AssemblyInfoInputs.cache
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.AssemblyInfo.cs
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.csproj.CoreCompileInputs.cache
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/bin/Debug/net6.0/Lab04_TicTacToe
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/bin/Debug/net6.0/Lab04_TicTacToe.deps.json
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/bin/Debug/net6.0/Lab04_TicTacToe.runtimeconfig.json
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/bin/Debug/net6.0/Lab04_TicTacToe.dll
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/bin/Debug/net6.0/Lab04_TicTacToe.pdb
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.dll
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/refint/Lab04_TicTacToe.dll
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.pdb
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/Lab04_TicTacToe.genruntimeconfig.cache
+/home/nunumarie3000/projects/courses/Code401/Lab04_TicTacToe_Storm/starter-code/Lab04_TicTacToe/obj/Debug/net6.0/ref/Lab04_TicTacToe.dll
