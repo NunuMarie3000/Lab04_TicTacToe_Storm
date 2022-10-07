@@ -21,22 +21,23 @@ namespace Lab04_TicTacToe.Classes
     public Position GetPosition(Board board)
     {
       Position desiredCoordinate = null;
-      while (desiredCoordinate is null)
+
+      while (desiredCoordinate == null)
       {
         Console.WriteLine("Please select a location");
+        // this is where the bug is i need to check if the tryparse fails or not. if it fails, then that means the spot is already occupied
+        // i have no clue why this loop is repeating when the user types in an answer the first time
         Int32.TryParse(Console.ReadLine(), out int position);
         desiredCoordinate = PositionForNumber(position);
       }
       return desiredCoordinate;
-
     }
-
 
     public static Position PositionForNumber(int position)
     {
-			// this is evaluating the 1-9 numerical position that corresponds to spots on teh game board
-			// based on the input position, it'll return a new instance of the Position class,
-			// which takes in row, column as arguments, and sets it to the private row and column , which is where? idk cause there isn't a private int row or private int column anywhere...maybe i have to make it?
+      // this is evaluating the 1-9 numerical position that corresponds to spots on teh game board
+      // based on the input position, it'll return a new instance of the Position class,
+      // which takes in row, column as arguments, and sets it to the private row and column , which is where? idk cause there isn't a private int row or private int column anywhere...maybe i have to make it?
       switch (position)
       {
         case 1: return new Position(0, 0); // Top Left
@@ -53,21 +54,30 @@ namespace Lab04_TicTacToe.Classes
       }
     }
 
-
     public void TakeTurn(Board board)
     {
       IsTurn = true;
 
-      Console.WriteLine($"{Name} it is your turn");
+      Console.SetCursorPosition((Console.WindowWidth - (Name.Length + 16)) / 2, Console.CursorTop);
+      Console.WriteLine($"{Name} it is your turn\n");
 
       Position position = GetPosition(board);
 
+      // int32.tryparse converts string to 32 bit int equivalent so "3" converts to 3
+      // if it doesn't/can't convert, it fails, ex: if you try to convert "X" into a number, it doesn't work
+      // first param is a string to convert
+      // second param is what to conver the string to, 
+      // ex: int numberThree;
+      // Int32.TryParse("3", out int numberThree);
       if (Int32.TryParse(board.GameBoard[position.Row, position.Column], out int _))
       {
+        // i need to check if the space is already occupied first before a player can stake claim
         board.GameBoard[position.Row, position.Column] = Marker;
       }
       else
       {
+        // here we already know if the space is occupied, b/c it fails the test
+        Console.SetCursorPosition((Console.WindowWidth - 30) / 2, Console.CursorTop);
         Console.WriteLine("This space is already occupied");
       }
     }

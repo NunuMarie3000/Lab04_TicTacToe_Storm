@@ -30,11 +30,14 @@ namespace Lab04_TicTacToe.Classes
     {
       //TODO: Output the board to the console
       // NOTE: HOW?
-      Console.WriteLine($"\t{GameBoard[0,0]}  |  {GameBoard[0,1]}  |  {GameBoard[0,2]}");
-			Console.WriteLine("      -----------------");
-      Console.WriteLine($"\t{GameBoard[1,0]}  |  {GameBoard[1,1]}  |  {GameBoard[1,2]}");
-			Console.WriteLine("      -----------------");
-      Console.WriteLine($"\t{GameBoard[2,0]}  |  {GameBoard[2,1]}  |  {GameBoard[2,2]}");
+      string line = "   1  |  2  |  3";
+      Console.WriteLine("\n\n");
+      Console.SetCursorPosition((Console.WindowWidth - line.Length) / 2, Console.CursorTop);
+      Console.WriteLine($"\t{GameBoard[0,0]}  |  {GameBoard[0,1]}  |  {GameBoard[0,2]}\n");
+      Console.SetCursorPosition((Console.WindowWidth - line.Length) / 2, Console.CursorTop);
+      Console.WriteLine($"\t{GameBoard[1,0]}  |  {GameBoard[1,1]}  |  {GameBoard[1,2]}\n");
+      Console.SetCursorPosition((Console.WindowWidth - line.Length) / 2, Console.CursorTop);
+      Console.WriteLine($"\t{GameBoard[2,0]}  |  {GameBoard[2,1]}  |  {GameBoard[2,2]}\n\n");
     }
   }
 }
