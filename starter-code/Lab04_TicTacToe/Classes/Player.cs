@@ -79,6 +79,7 @@ namespace Lab04_TicTacToe.Classes
         // here we already know if the space is occupied, b/c it fails the test
         Console.SetCursorPosition((Console.WindowWidth - 30) / 2, Console.CursorTop);
         Console.WriteLine("This space is already occupied");
+        TakeTurn(board);
       }
     }
   }
